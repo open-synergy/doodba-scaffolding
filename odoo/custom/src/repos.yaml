@@ -1,9 +1,6 @@
 # See https://github.com/Tecnativa/doodba#optodoocustomsrcreposyaml
 ./odoo:
     defaults:
-        # Shallow repositories ($DEPTH_DEFAULT=1) are faster & thinner
-        # You may need a bigger depth when merging PRs (use $DEPTH_MERGE
-        # for a sane value of 100 commits)
         depth: $DEPTH_DEFAULT
     remotes:
         ocb: https://github.com/OCA/OCB.git
@@ -13,5 +10,83 @@
         ocb $ODOO_VERSION
     merges:
         - ocb $ODOO_VERSION
-        # Example of a merge of the PR with the number <PR>
-        # - oca refs/pull/<PR>/head
+
+oca-server-tools:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        upstream: https://github.com/OCA/server-tools.git
+    target:
+        upstream $ODOO_VERSION
+    merges:
+        - upstream $ODOO_VERSION
+
+oca-web:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        upstream: https://github.com/OCA/web.git
+    target:
+        upstream $ODOO_VERSION
+    merges:
+        - upstream $ODOO_VERSION
+
+oca-partner-contact:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        upstream: https://github.com/OCA/partner-contact.git
+    target:
+        upstream $ODOO_VERSION
+    merges:
+        - upstream $ODOO_VERSION
+
+oca-product-attribute:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        upstream: https://github.com/OCA/product-attribute.git
+    target:
+        upstream $ODOO_VERSION
+    merges:
+        - upstream $ODOO_VERSION
+
+opnsynid-server-tools:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        origin: https://github.com/open-synergy/opnsynid-server-tools.git
+    target:
+        origin $ODOO_VERSION
+    merges:
+        - origin $ODOO_VERSION
+
+opnsynid-web:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        origin: https://github.com/open-synergy/opnsynid-web.git
+    target:
+        origin $ODOO_VERSION
+    merges:
+        - origin $ODOO_VERSION
+
+opnsynid-partner-contact:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        origin: https://github.com/open-synergy/opnsynid-partner-contact.git
+    target:
+        origin $ODOO_VERSION
+    merges:
+        - origin $ODOO_VERSION
+
+opnsynid-product-attribute:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        origin: https://github.com/open-synergy/opnsynid-product-attribute.git
+    target:
+        origin $ODOO_VERSION
+    merges:
+        - origin $ODOO_VERSION
