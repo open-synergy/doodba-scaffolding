@@ -1,0 +1,11 @@
+oca-server-tools:
+    - "*"
+
+oca-web:
+    - "*"
+
+opnsynid-server-tools:
+    - "*"
+
+opnsynid-web:
+    - "*"
