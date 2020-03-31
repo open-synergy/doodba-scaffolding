@@ -4,6 +4,23 @@ oca-server-tools:
 oca-web:
     - "*"
 
+oca-partner-contact:
+    - base_continent
+    - partner_contact_birthdate
+    - partner_contact_department
+    - partner_contact_gender
+    - partner_contact_in_several_companies
+    - partner_contact_job_position
+    - partner_contact_lang
+    - partner_contact_nationality
+    - partner_contact_personal_information_page
+    - partner_external_maps
+    - partner_identification
+    - partner_phone_extension
+    - partner_sector
+    - partner_street_number
+    - res_partner_affiliate
+
 opnsynid-server-tools:
     - "*"
 
