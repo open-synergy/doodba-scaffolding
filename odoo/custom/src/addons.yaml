@@ -26,3 +26,21 @@ opnsynid-server-tools:
 
 opnsynid-web:
     - "*"
+
+opnsynid-partner-contact:
+    - "partner_app*"
+    - partner_bank_active
+    - partner_contact_blood_type
+    - partner_contact_ethnicity
+    - partner_contact_family
+    - partner_contact_religion
+    - partner_creditor_debitor
+    - partner_education_level
+    - partner_emergency_contact
+    - partner_experience
+    - partner_field_of_work
+    - partner_go_public
+    - partner_job_level
+    - partner_language
+    - partner_ownership_type
+    - partner_place_of_birth
