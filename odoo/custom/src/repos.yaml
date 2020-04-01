@@ -31,6 +31,16 @@ oca-web:
     merges:
         - upstream $ODOO_VERSION
 
+oca-website:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        upstream: https://github.com/OCA/website.git
+    target:
+        upstream $ODOO_VERSION
+    merges:
+        - upstream $ODOO_VERSION
+
 oca-partner-contact:
     defaults:
         depth: $DEPTH_DEFAULT
