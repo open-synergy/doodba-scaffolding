@@ -48,3 +48,8 @@ opnsynid-partner-contact:
     - partner_language
     - partner_ownership_type
     - partner_place_of_birth
+
+opnsynid-product-attribute:
+    - product_multiple_uom_conversion
+    - product_prepaid_account
+    - "product_app*    
