@@ -21,6 +21,10 @@ oca-partner-contact:
     - partner_street_number
     - res_partner_affiliate
 
+oca-product-attribute:
+    - product_brand
+    - product_m2mcategories
+
 opnsynid-server-tools:
     - "*"
 
