@@ -62,3 +62,67 @@ opnsynid-product-attribute:
     - product_multiple_uom_conversion
     - product_prepaid_account
     - "product_app*"
+
+opnsynid-hr:
+    - gamification_analysis
+    - gamification_manual_goal_creation
+    - gamification_point
+    - "*_transition*"
+    - hr_attendance_computation
+    - hr_attendance_configuration_page
+    - hr_attendance_monkeypatch
+    - hr_attendance_overtime_request
+    - hr_attendance_security
+    - hr_award
+    - hr_career_administration_configuration_page
+    - hr_contract_additional_field
+    - hr_contract_security
+    - hr_contrib_register_partner
+    - hr_department_notebook
+    - hr_department_type
+    - hr_dicipline
+    - hr_dicipline_fine
+    - hr_employee_birthdate_from_home_address
+    - hr_employee_blood_type_from_home_address
+    - hr_employee_data_from_contract
+    - hr_employee_data_from_home_address
+    - hr_employee_employment_status
+    - hr_employee_ethnicity_from_home_address
+    - hr_employee_identification_from_home_address
+    - hr_employee_job_family_from_contract
+    - hr_employee_join_termination_date
+    - hr_employee_language_from_home_address
+    - hr_employee_nationality_from_home_address
+    - hr_employee_organization_unit
+    - hr_employee_pob_from_home_address
+    - hr_employee_project_experince_from_user
+    - hr_employee_religion_from_home_address
+    - hr_expense_default_journal
+    - hr_expense_header_account
+    - hr_expense_journal_configuration_page
+    - hr_expense_onchange
+    - hr_expense_security
+    - hr_expense_workflow_policy
+    - hr_holiday_code
+    - hr_holiday_configuration_page
+    - hr_holiday_limit_per_request
+    - hr_holiday_workflow_policy
+    - hr_job_family_modelling
+    - hr_payroll_configuration_page
+    - hr_payslip_analysis
+    - hr_payslip_gamification
+    - hr_payslip_print_policy
+    - hr_payslip_security
+    - hr_payslip_timesheet_computation
+    - hr_payslip_type
+    - hr_payslip_workflow_policy
+    - hr_timesheet_attendance_schedule
+    - hr_timesheet_computation
+    - hr_timesheet_computation_attendance_schedule
+    - hr_timesheet_computation_holiday
+    - hr_timesheet_computation_overtime
+    - hr_timesheet_contract
+    - hr_timesheet_mass_generate
+    - hr_timesheet_monkeypatch
+    - hr_timesheet_security
+    - hr_timesheet_workflow_policy

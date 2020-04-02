@@ -110,3 +110,13 @@ opnsynid-product-attribute:
         origin $ODOO_VERSION
     merges:
         - origin $ODOO_VERSION
+
+opnsynid-hr:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        origin: https://github.com/open-synergy/opnsynid-hr.git
+    target:
+        origin $ODOO_VERSION
+    merges:
+        - origin $ODOO_VERSION
