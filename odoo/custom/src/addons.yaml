@@ -52,4 +52,4 @@ opnsynid-partner-contact:
 opnsynid-product-attribute:
     - product_multiple_uom_conversion
     - product_prepaid_account
-    - "product_app*    
+    - "product_app*"
