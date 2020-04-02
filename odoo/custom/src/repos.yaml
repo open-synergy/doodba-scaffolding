@@ -61,6 +61,16 @@ oca-product-attribute:
     merges:
         - upstream $ODOO_VERSION
 
+oca-hr:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        upstream: https://github.com/OCA/hr.git
+    target:
+        upstream $ODOO_VERSION
+    merges:
+        - upstream $ODOO_VERSION
+
 opnsynid-server-tools:
     defaults:
         depth: $DEPTH_DEFAULT
