@@ -21,3 +21,7 @@
 
 # Project-specific docker configurations
 /.docker
+
+# ignore SSL
+/odoo/custom/ssh/id_rsa
+/odoo/custom/ssh/id_rsa.pub
