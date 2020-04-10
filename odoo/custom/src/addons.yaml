@@ -375,6 +375,7 @@ opnsynid-hr:
     - hr_timesheet_security
     - hr_timesheet_workflow_policy
     - hr_employee_lau_from_home_address
+    - hr_timesheet_product_policy
 
 opnsynid-account-voucher:
     - account_voucher_common
