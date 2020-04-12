@@ -375,6 +375,13 @@ opnsynid-hr:
     - hr_timesheet_security
     - hr_timesheet_workflow_policy
     - hr_employee_lau_from_home_address
+    - hr_timesheet_product_policy
+    - hr_timesheet_sheet_product_policy
+    - hr_timesheet_onchange
+    - hr_timesheet_sheet_onchange
+    - hr_timesheet_pricelist
+    - hr_timesheet_sheet_pricelist
+    - hr_contract_timesheet_pricelist
 
 opnsynid-account-voucher:
     - account_voucher_common
@@ -439,6 +446,8 @@ opnsynid-account-analytic:
     - analytic_account_mass_assign
     - analytic_distribution_mass_assign
     - stock_analytic_default
+    - account_analytic_line_onchange
+    - account_analytic_line_pricelist
 
 opnsynid-account-invoicing:
     - account_debt_collection
