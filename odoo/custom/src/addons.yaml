@@ -448,6 +448,7 @@ opnsynid-account-analytic:
     - stock_analytic_default
     - account_analytic_line_onchange
     - account_analytic_line_pricelist
+    - account_analytic_line_general_account_policy
 
 opnsynid-account-invoicing:
     - account_debt_collection
