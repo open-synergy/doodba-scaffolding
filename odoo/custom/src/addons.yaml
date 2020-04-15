@@ -384,6 +384,7 @@ opnsynid-hr:
     - hr_contract_timesheet_pricelist
     - hr_timesheet_general_account_policy
     - hr_timesheet_accrue_expense
+    - hr_timesheet_sheet_accrue_expense
 
 opnsynid-account-voucher:
     - account_voucher_common
