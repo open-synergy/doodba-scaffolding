@@ -385,6 +385,10 @@ opnsynid-hr:
     - hr_timesheet_general_account_policy
     - hr_timesheet_accrue_expense
     - hr_timesheet_sheet_accrue_expense
+    - hr_timesheet_task_onchange
+    - hr_timesheet_task_pricelist
+    - hr_timesheet_task_product_policy
+    - hr_timesheet_task_accrue_expense
 
 opnsynid-account-voucher:
     - account_voucher_common
@@ -442,6 +446,7 @@ opnsynid-project:
     - project_task_template_dependency
     - project_team_member_responsibility
     - project_workflow_policy
+    - project_task_analytic_account
 
 opnsynid-account-analytic:
     - account_analytic_plan_active
