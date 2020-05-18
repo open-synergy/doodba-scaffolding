@@ -511,6 +511,16 @@ opnsynid-stock-reporting:
     merges:
         - origin $ODOO_VERSION
 
+opnsynid-hr-expense:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        origin: https://github.com/open-synergy/opnsynid-hr-expense.git
+    target:
+        origin $ODOO_VERSION
+    merges:
+        - origin $ODOO_VERSION
+
 opnsynid-app-store:
     defaults:
         depth: $DEPTH_DEFAULT

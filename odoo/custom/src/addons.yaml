@@ -650,6 +650,10 @@ opnsynid-stock-reporting:
     - opnsynid_stock_inventory_blank_form_aeroo_report
     - opnsynid_stock_inventory_result_aeroo_report
 
+opnsynid-hr-expense:
+    - hr_reimbursement
+    - hr_cash_advance    
+
 opnsynid-app-store:
     - material_backend_theme
     - sync_chat_notification
