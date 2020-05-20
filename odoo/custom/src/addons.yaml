@@ -390,6 +390,7 @@ opnsynid-hr:
     - hr_timesheet_task_product_policy
     - hr_timesheet_task_accrue_expense
     - hr_timesheet_bypass_check
+    - hr_payslip_batch_openchatter
 
 opnsynid-account-voucher:
     - account_voucher_common
@@ -652,7 +653,7 @@ opnsynid-stock-reporting:
 
 opnsynid-hr-expense:
     - hr_reimbursement
-    - hr_cash_advance    
+    - hr_cash_advance
 
 opnsynid-app-store:
     - material_backend_theme
