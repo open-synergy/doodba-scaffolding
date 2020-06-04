@@ -57,6 +57,8 @@ oca-account-financial-tools:
     - account_bank_statement_print_policy
     - account_cash_flow_code
     - account_journal_subtype
+    - account_asset_management
+    - account_asset_management_xls
 
 oca-timesheet:
     - crm_timesheet
@@ -654,6 +656,11 @@ opnsynid-stock-reporting:
 opnsynid-hr-expense:
     - hr_reimbursement
     - hr_cash_advance
+
+opnsynid-account-payment:
+    - account_payment_banking_batch_processing
+    - account_payment_banking_batch_processing_bca_auto_credit
+    - account_payment_banking_batch_processing_bca_auto_transfer    
 
 opnsynid-app-store:
     - material_backend_theme

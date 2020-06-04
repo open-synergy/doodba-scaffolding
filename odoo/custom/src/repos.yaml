@@ -521,6 +521,16 @@ opnsynid-hr-expense:
     merges:
         - origin $ODOO_VERSION
 
+opnsynid-account-payment:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        origin: https://github.com/open-synergy/opnsynid-account-payment.git
+    target:
+        origin $ODOO_VERSION
+    merges:
+        - origin $ODOO_VERSION
+
 opnsynid-app-store:
     defaults:
         depth: $DEPTH_DEFAULT
